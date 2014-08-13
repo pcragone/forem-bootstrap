@@ -1,11 +1,13 @@
+@import "bootstrap/variables";
+@import "forem/bootstrap/variables";
 @import "bootstrap";
-@import "forem/base";
-@import "forem/bootstrap/*";
+@import "forem/bootstrap/bootswatch";
+@import "forem/bootstrap/theme";
 
-body {
-  margin: 2% 10%;
+.yield {
+  margin: 30px;
 }
 
-nav {
-  margin-top: 10px;
+body {
+  padding-top: 50px;
 }
